@@ -3,18 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Linktree</title>
+    <title>Gabriel Lima | Linktree</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>JayJay Okoucha</h1>
-        <p>Estudante do nucleo esportivo do Vasco</p>
+    <!-- Botão de tema no canto superior direito -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+        <i class="fas fa-moon"></i>
+    </button>
 
-        <a href="https://wa.me/SeuNumeroDeWhatsApp" class="link-button">WhatsApp</a>
-        
-        <div id="links-container"></div>
+    <!-- Partículas de fundo animadas -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
     </div>
+
+    <div class="container">
+        <!-- Foto de perfil com animação -->
+        <div class="profile-section">
+            <div class="profile-img-container">
+                <img src="./Foto/FotoPerfil.jpg" 
+                     alt="Gabriel Lima" 
+                     class="profile-img" 
+                     id="profile-img">
+                <div class="profile-ring"></div>
+            </div>
+            <h1 class="fade-in">Gabriel Lima</h1>
+            <p class="fade-in-delay">💻 Desenvolvedor & Estudante</p>
+            <div class="stats fade-in-delay-2">
+                <span class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span>Projetos</span>
+                </span>
+                <span class="stat-separator">•</span>
+                <span class="stat-item">
+                    <i class="fas fa-coffee"></i>
+                    <span>Café & Código</span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Container de links -->
+        <div class="links-section">
+            <!-- WhatsApp link -->
+            <a href="https://whatsapp.com" class="link-button whatsapp-special" target="_blank">
+                <div class="link-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="link-content">
+                    <span class="link-title">WhatsApp</span>
+                    <span class="link-subtitle">Fale comigo diretamente</span>
+                </div>
+                <div class="link-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+            
+            <div id="links-container"></div>
+        </div>
+
+        <!-- Footer com redes sociais -->
+        <div class="social-footer fade-in-delay-3">
+            <a href="#" class="social-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="social-link" target="_blank">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright fade-in-delay-4">
+            <p>© 2024 Gabriel Lima</p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
