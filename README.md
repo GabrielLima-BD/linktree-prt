@@ -45,17 +45,3 @@ linktree-prt/
 
 Acesse o projeto online: [glima.me](https://glima.me)
 
-## Contato
-
-- WhatsApp: [51 995253676](https://wa.me/51995253676)
-- Github: [GabrielLima-BD](https://github.com/GabrielLima-BD)
-- LinkedIn: [gabrieldlimabd](https://www.linkedin.com/in/gabrieldlimabd)
-- Instagram: [g.dlima_](https://instagram.com/g.dlima_)
-
-## Licença
-
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e compartilhar.
-
----
-
-> Projeto desenvolvido com dedicação para compor o portfólio profissional de Gabriel Lima.
