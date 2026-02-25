@@ -43,5 +43,5 @@ linktree-prt/
 
 ## Demonstração
 
-Acesse o projeto online: [glima.me](https://glima.me)
+Acesse o projeto online: [glima.me]([https://glima.me](https://gabriellima-bd.github.io/linktree-prt/))
 
